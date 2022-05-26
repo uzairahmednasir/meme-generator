@@ -1,0 +1,16 @@
+main {
+    width: 650px;
+    padding: 35px;
+    margin: auto;
+}
+
+.form {
+    display: grid;
+    grid-template: 40px 40px / 1fr 1fr;
+    gap: 18px;
+}
+
+.form__btn {
+    grid-column: 1 / -1;
+}
+
