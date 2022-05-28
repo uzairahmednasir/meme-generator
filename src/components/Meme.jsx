@@ -1,4 +1,11 @@
+import memesData from "../memesData"
+
 export default function Meme() {
+
+    const getMemeImage = () => {
+        console.log("lol")
+    }
+
     return (
         <main>
             <div className="form">
@@ -13,6 +20,7 @@ export default function Meme() {
                     className="form__input" 
                 />
                 <button 
+                    onClick={getMemeImage}
                     type="submit"
                     className="form__btn">
                     Get a new meme image
