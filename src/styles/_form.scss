@@ -1,7 +1,7 @@
 main {
     width: 650px;
     padding: 35px;
-    margin: auto;
+    margin: 10px auto;
 }
 
 .form {
@@ -10,7 +10,21 @@ main {
     gap: 18px;
 }
 
+
+.form__input {
+    font-family: "Karla", sans-serif;
+    text-indent: 5px;
+    border-radius: 5px;
+    border: 1px solid #D5D4D8;
+}
+
 .form__btn {
+    font-family: "Karla", sans-serif;
     grid-column: 1 / -1;
+    border-radius: 5px;
+    background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+    color: white;
+    border: none;
+    cursor: pointer;
 }
 
