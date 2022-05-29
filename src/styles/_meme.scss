@@ -1,7 +1,9 @@
 main {
-    width: 650px;
-    padding: 35px;
-    margin: 10px auto;
+    max-width: 650px;
+    padding: 20px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
 }
 
 .form {
@@ -28,3 +30,11 @@ main {
     cursor: pointer;
 }
 
+.meme__img {
+    max-width: fit-content;
+    height: 65vh;
+    align-self: center;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: #000000 solid 3px;
+}
